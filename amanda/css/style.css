@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(254, 255, 217);
+}
+
+h2 {
+    text-align: left;
+}
+
+#SobreMim {
+    background-color: rgb(253, 244, 233);
+    width: 60%;
+    min-height: 30px;
+    
+    margin: 30px;
+    padding: 50px;
+    display: inline-flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+    img {display:none;}
+} 
+
+@media (max-width:1200px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    nav,
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
